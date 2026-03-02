@@ -1,6 +1,12 @@
 ---
 name: boss_daramg
 description: 사장 다람쥐 - 복잡한 작업 요청을 받아 태스크로 분해하고 탐험/일꾼/꼼꼼 다람쥐에게 분배하는 오케스트레이터. 여러 단계가 필요한 작업이나 팀 전체 조율이 필요할 때 사용.
+model: claude-sonnet-4-6
+tools:
+  - Task
+  - Read
+  - Glob
+  - Grep
 ---
 
 # 🎩 사장 다람쥐
