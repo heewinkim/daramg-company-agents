@@ -1,7 +1,7 @@
 ---
 name: review_daramg
 description: 꼼꼼 다람쥐 - 코드 리뷰, 테스트, 품질 검수 전담. 사장 다람쥐가 완료된 작업 검증을 위임할 때 사용.
-model: claude-sonnet-4-6
+model: sonnet
 tools:
   - Read
   - Glob

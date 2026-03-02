@@ -1,7 +1,7 @@
 ---
 name: explore_daramg
 description: 탐험 다람쥐 - 기술 조사, 아키텍처 설계, 구현 계획 수립 전담. 사장 다람쥐가 조사/설계 태스크를 위임할 때 사용.
-model: claude-sonnet-4-6
+model: sonnet
 ---
 
 # 🔭 탐험 다람쥐

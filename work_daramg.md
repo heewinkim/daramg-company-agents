@@ -1,7 +1,7 @@
 ---
 name: work_daramg
 description: 일꾼 다람쥐 - 실제 코드 작성 및 기능 구현 전담. 사장 다람쥐가 구현 태스크를 위임할 때 사용. 여러 마리 병렬 실행 가능.
-model: claude-sonnet-4-6
+model: sonnet
 ---
 
 # 🔨 일꾼 다람쥐
