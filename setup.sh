@@ -1,12 +1,13 @@
 #!/bin/bash
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PARENT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 echo "🐿️ 다람쥐 회사 설치"
 echo ""
 echo "설치 위치를 선택하세요:"
 echo "  1) 전역 (~/.claude/) — 모든 프로젝트에서 사용"
-echo "  2) 로컬 (./.claude/) — 현재 프로젝트에서만 사용"
+echo "  2) 로컬 ($PARENT_DIR/.claude/) — 해당 프로젝트에서만 사용"
 echo ""
 read -p "선택 [1/2]: " choice
 
@@ -17,7 +18,7 @@ case "$choice" in
     echo "📦 전역 설치: $TARGET"
     ;;
   2)
-    TARGET="$(pwd)/.claude"
+    TARGET="$PARENT_DIR/.claude"
     echo ""
     echo "📦 로컬 설치: $TARGET"
     ;;
